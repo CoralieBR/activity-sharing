@@ -22,11 +22,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-image: url("../img/sayan-nath-L3PJm7bD61w-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    /* background-position: center; */
-    background-attachment: fixed;
+    
 }
 
 p, a, button {
@@ -48,7 +44,22 @@ img {
     padding: 30px;
 } */
 
+.cadre-shadow {
+    padding: 16px;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    margin: 16px;
+    background-color: white;
+}
+
+
 /*____________________________ ACCUEIL _________________________*/
+.body-accueil {
+    background-image: url("../img/sayan-nath-L3PJm7bD61w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
 
 #image-accueil {
     height: 100vh;
