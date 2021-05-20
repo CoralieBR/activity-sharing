@@ -48,6 +48,12 @@ header {
     min-height: 80px; 
     /* border-bottom: var(--color-rouge) 6px solid; */
 }
+#logo-header-desktop {
+    display: none;
+}
+#logo-header-phone {
+    display: block;
+}
 
 /*____________________________ NAV ___________________________*/
 
@@ -315,4 +321,17 @@ button.navbar-toggler:focus {
 footer {
     min-height: 100px;
     background-color: var(--color-vert);
+}
+
+
+
+
+/*________________________________Media query____________________________*/
+@media screen and (min-width: 991px) {
+    #logo-header-phone {
+        display: none;
+    }
+    #logo-header-desktop {
+        display: inline-block;
+    }
 }
