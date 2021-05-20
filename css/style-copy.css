@@ -328,8 +328,25 @@ button.navbar-toggler:focus {
 /*____________________________________ FOOTER ___________________________*/
 
 footer {
-    min-height: 100px;
+    height: 200px;
     background-color: var(--color-vert);
+}
+.sscat {
+    color: white;
+    font-size: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+.pfooter {
+    color: white;
+    font-size: small;
+    margin: 2px;
+}
+
+.afooter {
+    color: white;
+    font-size: small;
+    text-decoration: none;
 }
 
 
