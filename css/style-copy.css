@@ -34,9 +34,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Girassol', cursive;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 /* .container {
     display: flex;
     justify-content: center;
@@ -101,10 +101,16 @@ img {
 
 .card-accueil {
     /* overflow: hidden; */
+    /* max-width: fit-content; */
 }
+
+.card-img {
+    width: initial;
+}
+
 .card-accueil>img{
     max-height: 300px;
-    object-fit: cover;
+    /* object-fit: contain; */
 }
 .card-accueil>div {
     /* overflow: hidden; */
@@ -120,6 +126,14 @@ img {
     background-color: rgba(255, 255, 255, 0.507);
     color: black;
 }
+.card-accueil button {
+    border: transparent 2px solid;
+    color: transparent;
+}
+.card-accueil button:hover {
+    border: black 2px solid;
+    color: black;
+}
 
 
 
@@ -130,7 +144,7 @@ img {
 /*____________________________ HEADER _________________________*/
 
 header {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.4);
     min-height: 80px; 
     /* border-bottom: var(--color-rouge) 6px solid; */
 }
