@@ -34,9 +34,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Girassol', cursive;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 /* .container {
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ img {
 
 /*____________________________ ACCUEIL _________________________*/
 .body-accueil {
-    background-image: url("../img/murat-onder-Qag2W_cL1jg-unsplash.jpg");
+    background-image: url("../img/mike-erskine-S_VbdMTsdiA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -101,10 +101,20 @@ img {
 
 .card-accueil {
     /* overflow: hidden; */
+    /* max-width: fit-content; */
 }
+
+.card-img {
+    width: initial;
+}
+
 .card-accueil>img{
     max-height: 300px;
-    object-fit: cover;
+<<<<<<< Updated upstream
+    /* object-fit: contain; */
+=======
+    
+>>>>>>> Stashed changes
 }
 .card-accueil>div {
     /* overflow: hidden; */
@@ -120,7 +130,18 @@ img {
     background-color: rgba(255, 255, 255, 0.507);
     color: black;
 }
+.card-accueil button {
+    border: transparent 2px solid;
+    color: transparent;
+}
+.card-accueil button:hover {
+    border: black 2px solid;
+    color: black;
+}
 
+.card-img{
+    width: initial;
+}
 
 
 
@@ -130,8 +151,13 @@ img {
 /*____________________________ HEADER _________________________*/
 
 header {
-    background-color: transparent;
+<<<<<<< Updated upstream
+    background-color: rgba(0, 0, 0, 0.4);
     min-height: 80px; 
+=======
+    background-color: transparent;
+    min-height: 80px;
+>>>>>>> Stashed changes
     /* border-bottom: var(--color-rouge) 6px solid; */
 }
 #logo-header-desktop {
@@ -288,8 +314,8 @@ button.navbar-toggler:focus {
 
 .big-btn {
     background: transparent;
-    border: 3px solid var(--color-vert);
-    color: var(--color-vert);
+    border: 3px solid var(--color-white);
+    color: var(--color-white);
     cursor: pointer;
     padding: 20px 70px;
     text-transform: uppercase;
@@ -328,8 +354,25 @@ button.navbar-toggler:focus {
 /*____________________________________ FOOTER ___________________________*/
 
 footer {
-    min-height: 100px;
+    min-height: 200px;
     background-color: var(--color-vert);
+}
+.sscat {
+    color: white;
+    font-size: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+.pfooter {
+    color: white;
+    font-size: small;
+    margin: 2px;
+}
+
+.afooter {
+    color: white;
+    font-size: small;
+    text-decoration: none;
 }
 
 
