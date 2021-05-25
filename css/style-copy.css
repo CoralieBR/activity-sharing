@@ -102,21 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 .card-accueil {
     /* overflow: hidden; */
     /* max-width: fit-content; */
-<<<<<<< HEAD
-}
-
-.card-img {
-    width: initial;
-}
-
-.card-accueil>img{
-    max-height: 300px;
-<<<<<<< Updated upstream
-    /* object-fit: contain; */
-=======
-    
->>>>>>> Stashed changes
-=======
 }
 
 .card-img {
@@ -126,7 +111,15 @@ h1, h2, h3, h4, h5, h6 {
 .card-accueil>img{
     max-height: 300px;
     /* object-fit: contain; */
->>>>>>> main
+}
+
+.card-img {
+    width: initial;
+}
+
+.card-accueil>img{
+    max-height: 300px;
+    /* object-fit: contain; */
 }
 .card-accueil>div {
     /* overflow: hidden; */
@@ -163,16 +156,10 @@ h1, h2, h3, h4, h5, h6 {
 /*____________________________ HEADER _________________________*/
 
 header {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> main
     background-color: rgba(0, 0, 0, 0.4);
     min-height: 80px; 
-=======
     background-color: transparent;
     min-height: 80px;
->>>>>>> Stashed changes
     /* border-bottom: var(--color-rouge) 6px solid; */
 }
 #logo-header-desktop {
@@ -369,12 +356,9 @@ button.navbar-toggler:focus {
 /*____________________________________ FOOTER ___________________________*/
 
 footer {
-<<<<<<< HEAD
+
     min-height: 200px;
-=======
     height: 200px;
->>>>>>> main
-    background-color: var(--color-vert);
 }
 .sscat {
     color: white;
