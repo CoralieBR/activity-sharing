@@ -21,7 +21,7 @@
 
 <body class="body-accueil">
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg h-100">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -41,7 +41,7 @@
                             <a class="nav-link" href="formulaire.html">Contact</a>
                         </li>
                     </ul>
-                    <a id="logo-header-desktop" class="navbar-brand" href="index.html"> <img id="logo"
+                    <a id="logo-header-desktop " class="navbar-brand pt-4" href="index.html"> <img id="logo"
                             src="assets/logo.svg" alt="logo" width="200" height="150"></a>
                     <ul class="navbar-nav ms-auto mb-2">
                         <li class="nav-item p-2">
@@ -216,7 +216,7 @@
         </div> -->
 
 
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center pt-5">
             <button class="big-btn"> S'inscrire </button>
         </div>
     </main>
@@ -243,7 +243,7 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-1 mx-auto mb-4">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
                         <!-- Links -->
                         <h6 class="sscat">
                             Le projet
@@ -302,7 +302,7 @@
 
         <!-- Copyright -->
         <div class="pfooter text-center">
-        <div class="pfooter text-center" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="pfooter text-center">
             © 2021 Copyright:
             <a class="afooter" href="index.html">Activity Sharing</a>
         </div>
@@ -314,6 +314,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
     </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    
 
     <script src="js/script.js"></script>
 </body>
